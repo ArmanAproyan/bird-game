@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+canvas {
+    border: 1px solid black;
+    width: 100vw;
+    height: 100vh;
+    margin-top: 10px;
+}
+
+
+
+.gameOverModal {
+    width: 500px;
+    height: 500px;
+    background-color: rgb(25, 161, 102);
+    position: absolute;
+    top: 100px;
+    left: 600px;
+    display: none;
+}
+
+
+.txtBlock {
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txtBlock h1 {
+    font-size: 30px;
+    font-style:oblique;
+}
+
+.returnGame {
+    transition: 0.5s;
+    font-size: 70px;
+    position: absolute;
+    left: 220px;
+    bottom: 150px;
+}
+
+.returnGame:hover {
+    cursor: pointer;
+    font-size: 80px;
+}
+
+.gameOverModal .imgBlock {
+    width: 500px;
+    height: 150px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.gameOverModal .imgBlock img {
+    width: 100px;
+    height: 100px;
+}
+
+
+.coinBlock {
+    height: 100px;
+    position: absolute;
+    left: 0;
+    top: 10px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.coinBlock h1 {
+    margin-right: 20px;
+    margin-left: 10px;
+    color: yellow;
+    font-size: 50px;
+}
+
+.txtBlock h1 {
+    font-style: oblique;
+    color: yellow;
+}
